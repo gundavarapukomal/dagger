@@ -25,6 +25,7 @@ public class MainActivityFragment extends Fragment {
         host = (MainActivityFragmentHost) context;
     }
 
+
     @Override
     public void onDetach () {
         host = null;
